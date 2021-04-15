@@ -5,7 +5,6 @@ const jwt = require('jsonwebtoken');
 const argon2 = require('argon2');
 
 const dotenv = require('dotenv');
-
 dotenv.config();
 
 // statusModel.create({
@@ -19,7 +18,6 @@ dotenv.config();
  //}, function(err, data) {
  //    console.log(data);
  //});
-
 const generateAccessToken = (username) => {
     return jwt.sign({username}, process.env.TOKEN_SECRET, { expiresIn: '1d'});
 }
