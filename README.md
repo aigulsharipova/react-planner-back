@@ -14,7 +14,14 @@ ___
 - CSS 
 - Trello
 - Invisionapp
+- Heroku
+- 
 ___
 
 ## Screenshots 📸
-![Example](/image/1)
+![Example](/image/1.png)
+![Example](/image/2.png)
+![Example](/image/3.png)
+
+
+
